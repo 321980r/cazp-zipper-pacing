@@ -1,0 +1,28 @@
+{
+ "description": "Parameters fixed before the experiments of the paper. cazp: design of CAZP from the design study on training seeds 101-124 of configuration II (the coupling gain alpha is set by the tuning of each configuration and the bound cred by experiments.py; 'adapt': false switches off an option of the design study that the paper does not use; it is kept because the policy parameters form the run key). vsl_s and cv_speed_pacing: settings of VSL-S and CV speed pacing that the tuning grids vary. queue_discharge_II: queue discharge rate without control in configuration II from the design study (veh/h), used to scale the demands of configuration III.",
+ "cazp": {
+  "pol": "ZP",
+  "reach": true,
+  "lateral": true,
+  "tau": 1.0,
+  "zone_mode": "queue",
+  "form": true,
+  "depth": 2,
+  "adapt": false
+ },
+ "vsl_s": {
+  "strategy": "VSL_FIXZONE",
+  "c": 1.0,
+  "occ": 0.1
+ },
+ "cv_speed_pacing": {
+  "strategy": "CV_MTFC",
+  "occ": 0.1,
+  "vmin": 60.0
+ },
+ "queue_discharge_II": {
+  "3400": 3055.2,
+  "3600": 3089.55,
+  "3800": 3087.0
+ }
+}

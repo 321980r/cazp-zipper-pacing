@@ -1,0 +1,7 @@
+<connections>
+<connection from="E_up" to="E_mid" fromLane="0" toLane="0"/>
+<connection from="E_up" to="E_mid" fromLane="1" toLane="1"/>
+<connection from="E_up" to="E_mid" fromLane="2" toLane="2"/>
+<connection from="E_mid" to="E_down" fromLane="0" toLane="0"/>
+<connection from="E_mid" to="E_down" fromLane="1" toLane="1"/>
+</connections>

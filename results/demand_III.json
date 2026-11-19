@@ -1,0 +1,57 @@
+{
+ "demand": [
+  5200,
+  5500,
+  5800
+ ],
+ "warm": 4600,
+ "cool": 3100,
+ "q_discharge": 4710.9,
+ "q_discharge_II": 3077.25,
+ "ratio": 1.5308798440165732,
+ "saturated_levels": [
+  4800,
+  5100,
+  5400,
+  5700,
+  6000
+ ],
+ "calibration": {
+  "4800": {
+   "q_queue": 4551.0,
+   "q_max5": 4788.0,
+   "queue_max": 721.0,
+   "delay": 51.12981727450659,
+   "n": 4
+  },
+  "5100": {
+   "q_queue": 4638.0,
+   "q_max5": 4875.0,
+   "queue_max": 921.0,
+   "delay": 58.92304311335491,
+   "n": 4
+  },
+  "5400": {
+   "q_queue": 4719.0,
+   "q_max5": 4959.0,
+   "queue_max": 1446.0,
+   "delay": 104.53882632346851,
+   "n": 4
+  },
+  "5700": {
+   "q_queue": 4812.0,
+   "q_max5": 5073.0,
+   "queue_max": 1796.0,
+   "delay": 124.80910722475863,
+   "n": 4
+  },
+  "6000": {
+   "q_queue": 4834.5,
+   "q_max5": 5073.0,
+   "queue_max": 2471.0,
+   "delay": 175.98290620077103,
+   "n": 4
+  }
+ },
+ "rule": "demands of II (3400, 3600, 3800 veh/h; warm-up 3000, cool-down 2000) times the ratio of the queue discharge rates of III and II without control; III on training seeds 101-104"
+}

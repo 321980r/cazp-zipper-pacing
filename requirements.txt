@@ -1,0 +1,5 @@
+# versions used for the paper (Python 3.11.4); SUMO 1.18.0 is installed separately
+numpy==2.4.6
+scipy==1.15.0
+matplotlib==3.10.0
+libsumo==1.18.0
